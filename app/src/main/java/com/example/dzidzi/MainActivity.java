@@ -21,7 +21,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Array to get all categories ie. breakfast, lunch and supper and their ids
+        //Test
         homeArr = homeDatabaseHelper.getAllCategories();
+
 
     }
 }
